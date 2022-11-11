@@ -14,13 +14,11 @@ division_entera = numero1 // numero2
 potencia = pow(numero1, numero2)
 potencia = numero1 ** numero2
 
-for i in range(numero2):
-    potencia *= numero1
 
 #Operacion seno de la libreria math 
 seno = sin(numero1)
 
 #impresion de operaciones
-print("suma = ", suma, "multiplicacion = ",multiplicacion)
+print("suma = " + suma, f"multiplicacion = {multiplicacion}")
 print("potenccia = ", potencia, "reciduo = ",reciduo)
-print("division = ", division_entera)
+print("division = {numero}".format(numero = division_entera))

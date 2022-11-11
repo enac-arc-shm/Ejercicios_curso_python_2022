@@ -2,16 +2,16 @@
 
 from unicodedata import name
 
-
-name = input("Ingresa tu nombre ")
+archivo = input("Ingresa el nombre de un archivo", end="")
 #cadenas indice
 
-#print(archive[-4:])
+print(archivo[-4:])
 
 #Validar extensiones
-#if archive[-4:] != '.txt' or  archive[-4:] != '.json':
-    #print("extension invalida")
-
+if archivo[-4:] != '.txt':
+    if archivo[-4:] != '.json':
+        print("extension invalida")
+print("cualquier cosa")
 #buscar indice de un caracter
 #print(archive.find("s"))
 #print(archive.index("s"))
